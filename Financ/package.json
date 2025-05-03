@@ -1,0 +1,36 @@
+{
+    "name": "Financ",
+    "version": "1.0.0",
+    "description": "Wholf dilinde WebSocket sunucusu oluşturmak için kullanılan güçlü bir kütüphane",
+    "main": "src/Financ.hpp",
+    "dependencies": {
+        "Fegn": ">= 5.9.4",
+        "wholf-core": ">= 1.0.0",
+        "wholf-utils": ">= 1.0.0",
+        "wholf-network": ">= 1.0.0"
+    },
+    "devDependencies": {
+        "wholf-test": ">= 1.0.0",
+        "wholf-debug": ">= 1.0.0",
+        "wholf-lint": ">= 1.0.0"
+    },
+    "scripts": {
+        "test": "wholf test",
+        "build": "wholf build",
+        "lint": "wholf lint"
+    },
+    "keywords": [
+        "wholf",
+        "financ",
+        "websocket",
+        "server",
+        "network",
+        "communication"
+    ],
+    "author": "Wholf Development Team",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wholf-lang/Financ.git"
+    }
+}

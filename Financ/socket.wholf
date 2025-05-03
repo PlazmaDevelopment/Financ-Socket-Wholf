@@ -1,0 +1,19 @@
+// WebSocket sunucusu başlatma
+fegn Financ {
+    startServer: ("localhost", 8080) => {
+        Console.log("Financ sunucusu başlatıldı")
+    },
+    
+    // Bağlantı yönetimi
+    onConnect: (clientId) => {
+        Console.log("Yeni bağlantı: " + clientId)
+    },
+    
+    onDisconnect: (clientId) => {
+        Console.log("Bağlantı kesildi: " + clientId)
+    },
+    
+    onMessage: (clientId, message) => {
+        Console.log("Mesaj alındı: " + clientId + ": " + message)
+    }
+}
